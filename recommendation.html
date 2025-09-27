@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADT Management System - Recommendation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-inner container">
+      <a href="./ongoing.html" class="link-1"><div class="brand">ADT <br> Management System</div></a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav-links">
+        <a href="ongoing.html">Ongoing</a>
+        <a class="active" href="recommendation.html">Recommendation</a>
+        <a href="requirement.html">Requirement</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="page-title">Recommendation:</h1>
+
+    <section class="grid reveal">
+      <!-- Card 1 -->
+      <article class="card clickable" data-modal="#modal-deployment-updated">
+        <h3>Deployment</h3>
+        <ul>
+          <li>After signup and payment workflow at Development for ADT assigning.</li>
+          <li>MW shows customer nearest all ADT.</li>
+          <li>Need to add option add ADT port in MW which is mandatory to run closures.</li>
+        </ul>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card clickable" data-modal="#modal-relocation-updated">
+        <h3>Outdoor Relocation</h3>
+        <ul>
+          <li>After signup and payment workflow at Development for ADT assigning.</li>
+          <li>MW shows customer nearest all ADT.</li>
+          <li>Need to add option add ADT port in MW which is mandatory to run closures.</li>
+        </ul>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card clickable" data-modal="#modal-migration-updated">
+        <h3>Migration</h3>
+        <ul>
+          <li>A person who requires migration must be provided a new ADT with a port.</li>
+          <li>In migration workflow nearest all ADT will be shown.</li>
+          <li>Any update and changing of ADT and port rights open to the closure person.</li>
+        </ul>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="card clickable" data-modal="#modal-termination-updated">
+        <h3>Termination</h3>
+        <ul>
+          <li>Termination workflow closes once the device is submitted in the store and acknowledgement of the store
+            person.</li>
+          <li>A ADT port free workflow creates after closure of termination workflow.</li>
+          <li>NMS port release after the port free workflow closure.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <!-- Modals -->
+  <div class="modal" id="modal-deployment-updated" aria-hidden="true" role="dialog"
+    aria-label="Deployment (Updated) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2 class="C-height">Deployment</h2>
+        <ol class="C-ol-height">
+          <li>After signup and payment workflow at Development for ADT assigning.</li>
+          <li>MW shows customer nearest all ADT.</li>
+          <li>Need to add option add ADT port in MW which is mandatory to run closures.</li>
+          <li>Access field team deployed link from given or nearest ADT and update to back office regarding ADT change
+            with ADT port.</li>
+          <li>Access back office team run closures as given details.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-relocation-updated" aria-hidden="true" role="dialog"
+    aria-label="Outdoor Relocation (Updated) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2 class="C-height">Outdoor Relocation</h2>
+        <ol class="C-ol-height">
+          <li>After signup and payment workflow at Development for ADT assigning.</li>
+          <li>MW shows customer nearest all ADT.</li>
+          <li>Need to add option add ADT port in MW which is mandatory to run closures.</li>
+          <li>Access field team deployed link from given or nearest ADT and update to back office regarding ADT change
+            with ADT port.</li>
+          <li>Access back office team run closures as given details.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-migration-updated" aria-hidden="true" role="dialog"
+    aria-label="Migration (Updated) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2 class="C-height">Migration</h2>
+        <ol>
+          <li>A person who requires migration must be provided a new ADT with a port.</li>
+          <li>In migration workflow nearest all ADT will be shown.</li>
+          <li>Any update and changing of ADT and port rights open to the closure person.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-termination-updated" aria-hidden="true" role="dialog"
+    aria-label="Termination (Updated) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2 class="C-height">Termination</h2>
+        <ol>
+          <li>Termination workflow closes once the device is submitted in the store and acknowledgement of the store
+            person.</li>
+          <li>A ADT port free workflow creates after closure of termination workflow.</li>
+          <li>NMS port release after the port free workflow closure.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

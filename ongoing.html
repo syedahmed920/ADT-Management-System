@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADT Management System - Ongoing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-inner container">
+      <a href="./ongoing.html" class="link-1"><div class="brand">ADT <br> Management System</div></a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav-links">
+        <a class="active" href="ongoing.html">Ongoing</a>
+        <a href="recommendation.html">Recommendation</a>
+        <a href="requirement.html">Requirement</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="page-title">Ongoing:</h1>
+
+    <section class="grid reveal">
+      <!-- Card 1 -->
+      <article class="card clickable" data-modal="#modal-deployment-current">
+        <h3>Deployment (Ongoing)</h3>
+        <ul>
+          <li>After signingup and payment workflow at Development for ADT assigning.</li>
+          <li>Access field team deployed link through given ADT and update back office.</li>
+          <li>Access back office team run closure as per given details by field team.</li>
+        </ul>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card clickable" data-modal="#modal-relocation-current">
+        <h3>Outdoor Relocation (Ongoing)</h3>
+        <ul>
+          <li>After applying Relocation and payment, the workflow drop at Development bucket for ADT assigning.</li>
+          <li>Access field team deployed link through given ADT and update back office.</li>
+          <li>Access back office team run closure as per given details by field team.</li>
+        </ul>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card clickable" data-modal="#modal-migration-current">
+        <h3>Migration (Ongoign)</h3>
+        <ul>
+          <li>Currently the migration process has been performed as per field requirements and new ADT has been
+            allocated, after that NOC runs the migration.</li>
+        </ul>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="card clickable" data-modal="#modal-termination-current">
+        <h3>Termination (Ongoing)</h3>
+        <ul>
+          <li>Termination workflow closes once the device is submitted in the store after acknowledgement of the store
+            person and NMS port also release.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <!-- Modals -->
+  <div class="modal" id="modal-deployment-current" aria-hidden="true" role="dialog"
+    aria-label="Deployment (Current) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2>Deployment (Ongoing)</h2>
+        <ol>
+          <li>After signingup and payment workflow at Development for ADT assigning.</li>
+          <li>Access field team deployed link through given ADT and update back office.</li>
+          <li>Access back office team run closure as per given details by field team.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-relocation-current" aria-hidden="true" role="dialog"
+    aria-label="Outdoor Relocation (Current) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2>Outdoor Relocation (Ongoing)</h2>
+        <ol>
+          <li>After applying Relocation and payment, the workflow drop at Development bucket for ADT assigning.</li>
+          <li>Access field team deployed link through given ADT and update back office.</li>
+          <li>Access back office team run closure as per given details by field team.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-migration-current" aria-hidden="true" role="dialog"
+    aria-label="Migration (Current) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2>Migration (Ongoing)</h2>
+        <ol>
+          <li>Currently the migration process has been performed as per field requirements and new ADT has been
+            allocated, after that NOC runs the migration.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-termination-current" aria-hidden="true" role="dialog"
+    aria-label="Termination (Current) details">
+    <div class="modal-content">
+      <button class="modal-close icon" data-close aria-label="Close">✕</button>
+      <div class="modal-body">
+        <h2>Termination (Ongoing)</h2>
+        <ol>
+          <li>Termination workflow closes once the device is submitted in the store after acknowledgement of the store
+            person and NMS port also release.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-outline" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
