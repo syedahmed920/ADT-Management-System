@@ -26,7 +26,6 @@ body {
   color: var(--text);
   font-family: "Montserrat", "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   line-height: 1.6;
-  overflow: hidden;
 }
 
 img {
