@@ -687,6 +687,80 @@ main,
   100% { transform: translateZ(0) translateY(0); }
 }
 
+/* Pentagon Navigation Buttons */
+.pentagon-nav {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.pentagon-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pentagon-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 70px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+  border: none;
+  outline: none;
+}
+
+.pentagon-btn span {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0 8px;
+}
+
+/* Pentagon colors */
+.pentagon-btn.deployment {
+  background: linear-gradient(135deg, #90EE90, #7BC87B);
+}
+
+.pentagon-btn.relocation {
+  background: linear-gradient(135deg, #DA70D6, #C85DCF);
+}
+
+.pentagon-btn.migration {
+  background: linear-gradient(135deg, #FFD700, #E6C200);
+}
+
+.pentagon-btn.termination {
+  background: linear-gradient(135deg, #FF6B6B, #E85555);
+}
+
+
+/* Hover effects */
+.pentagon-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  filter: brightness(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.start-journey-wrapper {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
 /* Responsive for hero card */
 @media (max-width: 900px) {
   .landing .hero { padding: 34px 0; }
